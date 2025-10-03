@@ -6,11 +6,44 @@
 # The following are standard or built-in data types in Python:
 
 # Numeric: int, float, complex
+# - int: Represents whole numbers (positive, negative, zero) without decimals.
+# - float: Represents real numbers with decimal points or scientific notation.
+# - complex: Represents numbers with a real and imaginary part (e.g., 2+3j).
+#   Used in mathematical and scientific calculations involving complex numbers.
+
 # Sequence Type: string, list, tuple
+# - string (str): Ordered, immutable collection of characters.
+#   Supports indexing, slicing, and many text manipulation operations.
+# - list: Ordered, mutable collection of items (heterogeneous allowed).
+#   Can grow or shrink dynamically; supports indexing and slicing.
+# - tuple: Ordered, immutable collection of items.
+#   Similar to lists but fixed in size and often used for fixed datasets.
+
 # Mapping Type: dict
+# - dict: Unordered, mutable collection of key-value pairs.
+#   Keys must be immutable (e.g., str, int, tuple).
+#   Provides fast lookup, insertion, and deletion.
+
 # Boolean: bool
+# - bool: Represents truth values → True or False.
+#   Often the result of comparisons or logical operations.
+#   Subclass of int (True = 1, False = 0).
+
 # Set Type: set, frozenset
+# - set: Unordered, mutable collection of unique items.
+#   Useful for membership testing, eliminating duplicates, and set operations
+#   (union, intersection, difference).
+# - frozenset: Immutable version of set.
+#   Can be used as dictionary keys or elements of another set.
+
 # Binary Types: bytes, bytearray, memoryview
+# - bytes: Immutable sequence of bytes (values in range 0–255).
+#   Often used for raw binary data, files, and network communication.
+# - bytearray: Mutable version of bytes.
+#   Supports in-place modifications of binary data.
+# - memoryview: Provides a view (or "window") of memory of other binary objects
+#   without copying. Useful for efficient data handling.
+
 
 
 # Numeric:
